@@ -148,8 +148,8 @@ ul#menu li a
   font: bold 115% arial, sans-serif;
   display: block; 
   float: left; 
-  height: 37px;
-  padding: 29px 26px 6px 26px;
+  height: 22px;
+  padding: 19px 26px 12px 26px;
   text-align: center;
   color: #7b241c;
   text-transform: uppercase;
@@ -159,7 +159,7 @@ ul#menu li a
 
 ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { color: #FFF;
-  border-radius: 15%;
+  border-radius: 5%;
   background: transparent url(transparent.png) repeat;}
 
 #site_content
