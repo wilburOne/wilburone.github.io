@@ -92,7 +92,12 @@ ol li
 { 
   /*background: #1D1D1D url(bk8.jpg) repeat;*/
   /*background: #1D1D1D;*/
-  height: 60px;}
+  height: 70px;
+  text-align: left;
+  float: right;
+  width: 718px;
+  padding: 0;
+}
 
 #logo
 { width: 825px;
@@ -126,7 +131,7 @@ ol li
 
 #menubar
 { width: 1000px;
-  height: 72px;
+  height: 75px;
   padding: 0;
   background: transparent url(transparent_light.png) repeat;
   /*background: transparent url(background3.jpeg) repeat*/
@@ -145,11 +150,11 @@ ul#menu li
 
 ul#menu li a
 { letter-spacing: 0.1em;
-  font: bold 115% arial, sans-serif;
+  font: bold 130% arial, sans-serif;
   display: block; 
   float: left; 
   height: 22px;
-  padding: 19px 26px 12px 26px;
+  padding: 20px 12px 20px 12px;
   text-align: center;
   color: #7b241c;
   text-transform: uppercase;
@@ -163,7 +168,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   background: transparent url(transparent.png) repeat;}
 
 #site_content
-{ width: 954px;
+{ width: 1050px;
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 20px 24px 20px 20px;
@@ -172,11 +177,11 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 .sidebar
 { float: left;
-  width: 250px;
+  width: 300px;
   padding: 0 15px 20px 15px;}
 
 .sidebar ul
-{ width: 228px; 
+{ width: 270px; 
   padding: 4px 0 0 0; 
   margin: 4px 0 30px 0;}
 
@@ -196,7 +201,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 #content
 { text-align: left;
   float: right;
-  width: 665px;
+  width: 705px;
   padding: 0;}
 
 #content ul
@@ -408,13 +413,13 @@ padding: 5px 0 4px 25px;}
 #publications
 { text-align: left;
   float: right;
-  width: 665px;
+  width: 715px;
   padding: 0;}
 
 #experience
 { text-align: left;
   float: right;
-  width: 665px;
+  width: 715px;
   padding: 0;}
 
 /*ul
@@ -431,13 +436,13 @@ padding: 5px 0 4px 25px;}
 
 #experience ul li
 { margin: 0 0 2px 0; 
-  padding: 0 0 2px 15px;
-  line-height: 1.5em;}
+  padding: 0 0 2px 10px;
+  line-height: 1.2em;}
 
 #service
 { text-align: left;
   float: right;
-  width: 665px;
+  width: 715px;
   padding: 0;}
 
 #service ul
@@ -449,4 +454,46 @@ padding: 5px 0 4px 25px;}
   padding: 0 0 2px 15px;
   line-height: 1.5em;}
 
+.testdiv *{ 
+  vertical-align:middle; 
+}
+.testdiv img{
+  width: 340px;
+  position: relative;
+  height: 250px;
+  /*border-style:dotted;
+  border-color:#C0392B;
+  border-width:1.5px;*/
+}
+.testdiv p
+{ padding: 0 4px 6px 4px;
+  line-height: 1.6em;}
 
+.testdiv1 img{
+  width: 440px;
+  position: relative;
+  height: 170px;
+  /*border-style:dotted;
+  border-color:#C0392B;
+  border-width:1.5px;*/
+}
+.testdiv1 p
+{ padding: 0 4px 6px 4px;
+  line-height: 1.6em;}
+
+.research_image1 img{
+  width: 560px;
+  position: relative;
+  height: 200px;
+/*  border-style:dotted;
+  border-color:#C0392B;
+  border-width:1.5px;*/
+}
+.research_image2 img{
+  width: 600px;
+  position: relative;
+  height: 300px;
+/*  border-style:dotted;
+  border-color:#C0392B;
+  border-width:1.5px;*/
+}
