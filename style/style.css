@@ -380,6 +380,12 @@ a:link {
   text-decoration: none;
   color: #C0392B
 }
+a:highlink { 
+  text-decoration: none;
+  color: #FF0000;
+  font-weight: bold;
+  /*background-color: #FFFFCC;*/
+}
 a:active { 
   text-decoration:blink
 }
