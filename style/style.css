@@ -12,24 +12,24 @@ body
 
 p
 { padding: 0 0 12px 0;
-  line-height: 1.7em;}
+  line-height: 1.6em;}
 
 img
 { border: 0;}
 
 h1, h2, h3, h4, h5, h6 
-{ font: normal 175% 'century gothic', arial, sans-serif;
+{ font: normal 150% 'century gothic', arial, sans-serif;
   color: #43423F;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;}
 
 h2
-{ font: normal 175% 'century gothic', arial, sans-serif;
+{ font: normal 150% 'century gothic', arial, sans-serif;
   color: #000;}
 
 h4, h5, h6
 { margin: 0;
-  padding: 0 0 5px 0;
+  padding: 0 0 3px 0;
   font: normal 115% arial, sans-serif;
   color: #000;}
 
@@ -353,7 +353,7 @@ table tr td
 .trig {  
     width: 150px;  
     height: 200px;  
-    border-radius: 10%; 
+    border-radius: 0%; 
     position: relative; 
 /*    position: absolute;  
     top: 50%;  
@@ -365,7 +365,7 @@ table tr td
 .trig1 {  
     width: 154px;  
     height: 204px;  
-    border-radius: 10%;  
+    border-radius: 0%;  
     background-color: white;  
     position: relative;  
 } 
@@ -378,6 +378,8 @@ table tr td
 
 a:link { 
   text-decoration: none;
+/*  padding: 25px 0 25px 0;
+  margin: 25px 0 15px 0;*/
   color: #C0392B
 }
 a:highlink { 
@@ -402,6 +404,16 @@ a:visited {
   padding-left:60px;
   padding-right:8px;
 }
+#interests ul
+{ margin: 10px 10px 22px 20px;}
+
+#interests ul li
+{ list-style-type: square;
+  /*background: url(bullet.png) no-repeat;*/
+  margin: 3px 0px 0px 20px; 
+  padding: 0px 10px 4px 25px;
+  line-height: 1.5em;}
+
 #news ul
 { margin: 10px 10px 22px 20px;}
 
@@ -477,6 +489,21 @@ padding: 5px 0 4px 25px;}
 padding: 5px 0 4px 25px;}
 
 #service ul li
+{ margin: 0 0 2px 0; 
+  padding: 0 0 2px 15px;
+  line-height: 1.5em;}
+
+#teaching
+{ text-align: left;
+  float: right;
+  width: 715px;
+  padding: 0;}
+
+#teaching ul
+{ margin: 5px 0 15px 0px;
+padding: 5px 0 4px 25px;}
+
+#teaching ul li
 { margin: 0 0 2px 0; 
   padding: 0 0 2px 15px;
   line-height: 1.5em;}
