@@ -155,7 +155,7 @@ ul#menu li h2
   float: right; 
   height: 22px;
   /*padding: 0;*/
-  padding: 20px 520px 0px 280px;
+  padding: 20px 580px 0px 180px;
   text-align: right;
   /*color: #7b241c;*/
   color: white;
@@ -188,8 +188,8 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 .sidebar-b
 { 
   float: left;
-  width: 400px;
-  padding: 0px 10px 20px 150px;
+  width: 520px;
+  padding: 0px 10px 20px 30px;
 }
 
 #img-container {
