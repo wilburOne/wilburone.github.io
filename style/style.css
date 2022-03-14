@@ -161,12 +161,12 @@ ul#menu li
 
 ul#menu li a
 { letter-spacing: 0.1em;
-  font: bold 130% arial, sans-serif;
+  font: bold 140% arial, sans-serif;
   display: block; 
   float: left; 
   height: 22px;
   /*padding: 0;*/
-  padding: 20px 14px 10px 14px;
+  padding: 20px 18px 10px 18px;
   text-align: center;
   color: #7b241c;
   text-transform: uppercase;
